@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julien Cragnolini | Frontend Developer</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/JCFoncer.svg"/>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Darkmode -->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/css/style.css">
+    <!-- Javascript -->
+    <script src="voiceRSS.js" defer></script>
+    <script src="script.js" defer></script>
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- TERMINAL -->
+    <!-- sass D:\AAAAAAAAAAAAAAAAAAAAAAAAA\Site\style\sass\style.scss D:\AAAAAAAAAAAAAAAAAAAAAAAAA\Site\style\css\style.css  -->
+    <!-- sass --watch D:\AAAAAAAAAAAAAAAAAAAAAAAAA\Site\style\sass:D:\AAAAAAAAAAAAAAAAAAAAAAAAA\Site\style\css -->
+    
+    <!-- HEADER -->
+    <!-- <header style="background-image: url('img/bg-header2.jpg'); background-size: cover; background-position: center" data-aos="zoom-out">
+        <img src="img/logo2.png" alt="logo" class="mx-auto d-block p-5" data-aos="zoom-out" data-aos-duration="3000"/>
+    </header> -->
+    
+    <!-- Icons made by <a href="https://smashicons.com/" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> -->
+
+    <section class="position-relative jarallax pt-5 pb-5 mt-0 align-items-end align-items-md-center w-100 d-flex bg-dark">
+        <div class="jarallax-img" style="background-image: url('img/bg-header2.jpg'); background-size: cover; background-position: center;"></div>
+        <div class="container-fluid d-flex h-100">
+            <div class="row  justify-content-center w-100  align-items-start d-flex text-center h-100">
+                <div class="col-12 col-md-10  h-50 ">
+                    <h1 class=" display-4  text-light mb-2 mt-5"><strong>Julien Cragnolini</strong> </h1>
+                    <p class="lead  text-light my-5">I am a web developer specializing in the frontend. I will be happy to participate in your projects.</p>
+                    <!-- <div class="btn-container-wrapper p-relative d-block  zindex-1">
+                        <a class="btn btn-outline-light border-0 btn-lg p-3 mt-md-5  scroll align-self-center" href="#joke">
+                            <i class="fa fa-angle-down fa-2x  "></i>
+                        </a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-light navbar-expand-lg bg-light sticky-top px-5 py-3 shadow"> 
+        <button class="navbar-toggler mx-auto" data-toggle="collapse" data-target="#navbarText" data-aos="fade-in">
+            <span class="navbar-toggler"><img src="/img/menu.svg" alt=""></span>
+        </button>
+        
+        <div id="navbarText" class="collapse navbar-collapse">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item px-4 text-center" data-aos="fade-right" data-aos-duration="3000">
+                    <a href="#" class="nav-link">home</a>
+                </li>
+                <li class="nav-item px-4 text-center" data-aos="fade-right" data-aos-duration="3000">
+                    <a href="https://github.com/JulienCragnolini" class="nav-link">about</a>
+                </li>
+                <li class="nav-item px-4 text-center" data-aos="fade-left" data-aos-duration="3000">
+                    <a href="#" class="nav-link">skills</a>
+                </li>
+                <li class="nav-item px-4 text-center" data-aos="fade-left" data-aos-duration="3000">
+                    <a class="nav-link" href="https://github.com/JulienCragnolini">projects</a>
+                </li>
+                <li class="nav-item px-4 text-center" data-aos="fade-left" data-aos-duration="3000">
+                    <a class="nav-link" href="https://github.com/JulienCragnolini" target="_blank">contact</a>
+                </li>
+            </ul>
+        </div>   
+    </nav>
+
+    <!-- BTN JOKE -->
+    <section id="joke">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- <div class="offset-md-1"></div> -->
+                <div class="col-md-8 m-auto">
+                    <h1 class="text-center" data-aos="fade-in" data-aos-duration="0">before knowing more, a joke ?</h1>
+                    <button id="buttonjk" class="btn rounded-0 d-block m-auto" data-aos="fade-in" data-aos-duration="2500">tell me</button>    
+                    <audio id="audio" controls hidden></audio>
+                </div>
+                <div id="jokeimg" class="col-md-4" data-aos="fade-in" data-aos-duration="3000">   
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="container-fuild bg-light">
+            <div class="row mx-0">
+                <div class="col-md-8" data-aos="fade-in" data-aos-duration="3000">
+                    
+                </div>
+                <div class="col-md-4 m-auto"  data-aos="fade-in" data-aos-duration="3000">
+                    <h1 class="text-center">learn more about me</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-md-1"></div>
+                <div class="col-md-4 m-auto" data-aos="fade-in" data-aos-duration="3000">
+                    <h1 class="text-center">these are my strengths</h1>
+                </div>
+                <div class="offset-md-2"></div>
+                <div class="col-md-4" data-aos="fade-in" data-aos-duration="3000">
+                    
+                </div>
+                <div class="offset-md-1"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <div class="container-fluid bg-light">
+            <div class="row">
+                <div class="offset-md-1"></div>
+                <div class="col-md-4" data-aos="fade-in" data-aos-duration="3000">
+                    
+                </div>
+                <div class="offset-md-2"></div>
+                <div class="col-md-4 m-auto" data-aos="fade-in" data-aos-duration="3000">
+                    <h1 class="text-center">these are my results</h1>
+                </div>
+                <div class="offset-md-1"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 m-auto" data-aos="fade-in" data-aos-duration="3000">
+                    <h1 class="text-center">available anytime</h1>
+                </div>
+                <div class="col-md-6" data-aos="fade-in" data-aos-duration="3000">
+                    <!-- <div class="">
+                        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13276.130589485732!2d-122.42226015576097!3d37.76700381519751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c6c8f4459%3A0xb10ed6d9b5050fa5!2sTwitter+HQ!5e0!3m2!1sru!2sru!4v1532164770673" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="m-50">
+        <div class="container mx-auto text-center p-4 text-light">
+            <img src="img/logo2.png" class="pb-1 mr-3" width="5%" alt="">© 2020 Julien Cragnolini
+        </div>
+    </footer>
+</body>
+<!-- AOS Javascript -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        delay: 200,
+        duration: 1000,
+        once: false,
+        mirror: false
+    });
+</script>
+<!-- Jarallax -->
+<script src="https://unpkg.com/jarallax@1/dist/jarallax.min.js"></script>
+<!-- Include it if you want to use Video parallax -->
+<script src="https://unpkg.com/jarallax@1/dist/jarallax-video.min.js"></script>
+<!-- Darkmode -->
+<!-- <script>
+    function addDarkmodeWidget() {
+      new Darkmode().showWidget();
+    }
+    window.addEventListener('load', addDarkmodeWidget);
+</script> -->
+</html>

@@ -1,0 +1,110 @@
+$primaryColor: #7ad7ff;
+$secondaryColor: #212529;
+$thirdColor: #fff;
+
+@import 'media';
+@import 'header';
+@import 'buttonJoke';
+@import 'buttonIntro';
+
+// html {
+//     background-color: $primaryColor;
+//     background: #FFF;
+//     filter: invert(1) hue-rotate(210deg);
+// }
+
+.jarallax {
+    position: relative;
+    z-index: 0;
+}
+.jarallax > .jarallax-img {
+    position: absolute;
+    object-fit: cover;
+    /* support for plugin https://github.com/bfred-it/object-fit-images */
+    font-family: 'object-fit: cover;';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+nav {
+    li {
+        a {
+            color: $secondaryColor!important;
+            cursor: pointer;
+            transition: all .5s;
+
+            &:hover {
+                background: rgba(0, 0, 0, 0.1);
+                transition: all .5s;
+            }
+        }
+    }
+}
+
+.row {
+    height: 60vh;
+}
+
+#jokeimg {
+    background-image: url('/img/joke.jpg');
+    background-size: cover;
+    background-position: 50% 40%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+body {
+    z-index: 100!important;
+    color: $secondaryColor;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.navbar-toggler {
+    border: none!important; 
+    border-radius: 0!important;
+}
+
+footer {
+    background: $secondaryColor;
+}
+
+@media all and (max-width: 850px) {
+    header img { width: 50%; }
+
+    nav {
+        li {
+                padding: 0!important;
+                padding-left: 1em!important;
+                padding-right: 1em!important;
+        }
+    }
+  }
+@media all and (max-width: 550px) {
+    header img { width: 95%; }
+  }
+
+// header {
+//     // Window width >= 576px
+//     @include sm {
+//         img {
+//             width: 250px;
+//             height: 100px;
+//         }
+//     }
+// // Window width >= 992px
+//     @include lg {
+        
+//     }
+// // Window width >= 1400px
+//     @include rwd(1400) {
+        
+//     }
+// }
+
+
